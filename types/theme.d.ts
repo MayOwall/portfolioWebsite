@@ -11,11 +11,3 @@ declare module "@emotion/react" {
         colors: Colors;
     }
 }
-
-interface IColors {
-    white: string;
-    black: string;
-    lightSlateGreen: string;
-    midSlateGreen: string;
-    darkSlateGreen: string;
-}
