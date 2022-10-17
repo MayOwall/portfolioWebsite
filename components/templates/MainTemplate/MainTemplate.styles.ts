@@ -8,7 +8,7 @@ export const Container = styled.div`
     width: 100vw;
     height: 100vh;
 
-    padding: 1rem 2rem;
+    padding: 2rem 2rem;
 
     color: ${({ theme }) => theme.colors.darkSlateGreen};
 `;
