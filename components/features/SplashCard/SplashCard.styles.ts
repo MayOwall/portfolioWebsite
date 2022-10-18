@@ -1,4 +1,17 @@
 import styled from "@emotion/styled";
+import { keyframes } from "@emotion/react";
+
+const cardAnimation = keyframes`
+  80% {
+    transform: translateY(0);
+  }
+  85% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-3500px);
+  }
+`;
 
 export const Container = styled.div`
     display: flex;
@@ -14,6 +27,9 @@ export const Container = styled.div`
     color: white;
 
     z-index: 1000;
+
+    animation: 8s ease-in-out ${cardAnimation};
+    animation-fill-mode: forwards;
 `;
 
 export const TextContainer = styled.div`
