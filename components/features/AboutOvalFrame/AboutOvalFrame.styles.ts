@@ -39,6 +39,7 @@ const thirdAnimation = keyframes`
 
 export const Container = styled.div`
     display: flex;
+    opacity: 80%;
 
     > div:nth-of-type(2) {
         position: relative;

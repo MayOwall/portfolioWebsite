@@ -12,6 +12,7 @@ export const Main = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 `;
 
 export const Title = styled.div`
@@ -72,7 +73,14 @@ export const AboutFeatureContainer = styled.div`
     display: flex;
     flex-direction: column;
     gap: 10rem;
+    position: relative;
 
     width: 90%;
-    margin: 10rem 0 15rem;
+    margin: 20rem 0 15rem;
+`;
+
+export const AboutOvalFrameContainer = styled.div`
+    position: absolute;
+    top: -5rem;
+    right: -20rem;
 `;

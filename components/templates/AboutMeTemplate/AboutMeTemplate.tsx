@@ -1,4 +1,10 @@
-import { OvalNav, PageTopper, AboutFeature, PageFooter } from "components";
+import {
+    OvalNav,
+    PageTopper,
+    AboutOvalFrame,
+    AboutFeature,
+    PageFooter,
+} from "components";
 import * as S from "./AboutMeTemplate.styles";
 
 const desc1Data =
@@ -72,7 +78,11 @@ export function AboutMeTemplate({ ...props }) {
                     </li>
                     <li>오월, 초록, 그림, 햇빛, 고양이를 좋아합니다.</li>
                 </S.Desc2>
+
                 <S.AboutFeatureContainer>
+                    <S.AboutOvalFrameContainer>
+                        <AboutOvalFrame />
+                    </S.AboutOvalFrameContainer>
                     <AboutFeature
                         title="SKILLS"
                         contentList={skillContentList}

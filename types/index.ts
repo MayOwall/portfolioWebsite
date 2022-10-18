@@ -21,7 +21,3 @@ export interface IAboutFeatureProps {
     title: string;
     contentList: IAboutAtomProps[];
 }
-
-export interface IAboutOvalFrameProps {
-    image: string | ImageData;
-}
