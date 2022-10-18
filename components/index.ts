@@ -9,6 +9,7 @@ import { AboutFeature } from "./features/AboutFeature";
 import { PageFooter } from "./features/PageFooter";
 
 import { MainTemplate } from "./templates/MainTemplate";
+import { AboutMeTemplate } from "./templates/AboutMeTemplate";
 
 export {
     OvalNav,
@@ -20,4 +21,5 @@ export {
     AboutAtom,
     AboutFeature,
     PageFooter,
+    AboutMeTemplate,
 };
