@@ -7,8 +7,10 @@ import { PageTopper } from "./features/PageTopper";
 import { SplashCard } from "./features/SplashCard";
 import { AboutFeature } from "./features/AboutFeature";
 import { PageFooter } from "./features/PageFooter";
+import { AboutOvalFrame } from "./features/AboutOvalFrame";
 
 import { MainTemplate } from "./templates/MainTemplate";
+import { AboutMeTemplate } from "./templates/AboutMeTemplate";
 
 export {
     OvalNav,
@@ -20,4 +22,6 @@ export {
     AboutAtom,
     AboutFeature,
     PageFooter,
+    AboutMeTemplate,
+    AboutOvalFrame,
 };

@@ -13,6 +13,7 @@ export const Container = styled.div`
     color: ${({ theme }) => theme.colors.darkSlateGreen};
 
     transition: all ease-in 0.3s;
+    cursor: pointer;
 
     :hover {
         background-color: ${({ theme }) => theme.colors.darkSlateGreen};

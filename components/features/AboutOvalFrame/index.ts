@@ -1,0 +1,1 @@
+export { AboutOvalFrame } from "./AboutOvalFrame";
