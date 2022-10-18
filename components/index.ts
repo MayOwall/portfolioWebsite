@@ -1,5 +1,6 @@
 import { OvalNav } from "./atoms/OvalNav";
 import { LoadingCircle } from "./atoms/LoadingCircle";
+import { AboutAtom } from "./atoms/AboutAtom";
 
 import { MainNavBar } from "./features/MainNavBar";
 import { PageTopper } from "./features/PageTopper";
@@ -14,4 +15,5 @@ export {
     MainTemplate,
     LoadingCircle,
     SplashCard,
+    AboutAtom,
 };

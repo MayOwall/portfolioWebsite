@@ -1,0 +1,1 @@
+export { AboutAtom } from "./AboutAtom";
