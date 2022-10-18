@@ -27,6 +27,10 @@ export const Date = styled.div`
 `;
 
 export const Content = styled.div<IContentProps>`
+    font-family: Noto Sans KR, sans-serif;
     font-size: ${({ isSkill }) => (isSkill ? "1.5rem" : "1rem")};
-    line-height: 1.2rem;
+    font-weight: 200;
+    line-height: ${({ isSkill }) => (isSkill ? "2rem" : "1.2rem")};
+
+    opacity: 70%;
 `;

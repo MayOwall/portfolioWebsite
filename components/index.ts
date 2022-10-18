@@ -5,6 +5,7 @@ import { AboutAtom } from "./atoms/AboutAtom";
 import { MainNavBar } from "./features/MainNavBar";
 import { PageTopper } from "./features/PageTopper";
 import { SplashCard } from "./features/SplashCard";
+import { AboutFeature } from "./features/AboutFeature";
 
 import { MainTemplate } from "./templates/MainTemplate";
 
@@ -16,4 +17,5 @@ export {
     LoadingCircle,
     SplashCard,
     AboutAtom,
+    AboutFeature,
 };

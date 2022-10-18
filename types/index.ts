@@ -16,3 +16,8 @@ export interface IAboutAtomProps {
     date?: string;
     isSkill: boolean;
 }
+
+export interface IAboutFeatureProps {
+    title: string;
+    contentList: IAboutAtomProps[];
+}
