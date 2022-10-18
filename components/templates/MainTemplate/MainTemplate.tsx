@@ -1,9 +1,35 @@
-import { PageTopper, MainNavBar } from "components";
+import { useState, useEffect } from "react";
+import { PageTopper, MainNavBar, SplashCard } from "components";
 import * as S from "./MainTemplate.styles";
 
 export function MainTemplate({ ...props }) {
+    const [isSplashCardVisible, setSplashCardVisible] = useState(false);
+
+    useEffect(() => {
+        const splashCardDate = Number(
+            window.localStorage.getItem("splashCardDate")
+        );
+
+        if (!splashCardDate) {
+            setSplashCardVisible(true);
+            window.localStorage.setItem(
+                "splashCardDate",
+                String(Date.now() + 60000)
+            );
+        } else {
+            const current = Date.now();
+            if (current > splashCardDate) {
+                setSplashCardVisible(true);
+                window.localStorage.setItem(
+                    "splashCardDate",
+                    String(Date.now() + 60000)
+                );
+            }
+        }
+    }, []);
     return (
         <S.Container>
+            {isSplashCardVisible ? <SplashCard /> : null}
             <PageTopper>
                 <MainNavBar />
             </PageTopper>
