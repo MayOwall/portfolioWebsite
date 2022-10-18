@@ -5,9 +5,9 @@ import theme from "./theme";
 const globalStyles = css`
     ${reset}
     html, body {
-        overflow: hidden;
         padding: 0;
         margin: 0;
+        max-width: 1028px;
         font-family: "Noto Serif KR", serif;
     }
     a {

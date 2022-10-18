@@ -3,26 +3,18 @@ import styled from "@emotion/styled";
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
-    position: fixed;
-    top: 0;
-    left: 0;
 
     width: 100vw;
-    height: inherit;
     padding: 5rem;
-
-    border: 1px solid;
-
-    overflow: auto;
 `;
 
-export const Main = styled.main`
+export const Main = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
 `;
 
-export const Title = styled.h1`
+export const Title = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,13 +25,13 @@ export const Title = styled.h1`
     color: ${({ theme }) => theme.colors.darkSlateGreen};
 `;
 
-export const NickName = styled.h2`
+export const NickName = styled.div`
     color: inherit;
     font-size: 4rem;
     font-weight: 900;
 `;
 
-export const OriginName = styled.h3`
+export const OriginName = styled.div`
     color: ${({ theme }) => theme.colors.white};
     font-size: 2.6rem;
     font-weight: 900;

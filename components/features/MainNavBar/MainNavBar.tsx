@@ -4,9 +4,9 @@ import * as S from "./MainNavBar.styles";
 export function MainNavBar({ ...props }) {
     return (
         <S.Container style={{ ...props }}>
-            <OvalNav content="ABOUT ME" link="#" />
-            <OvalNav content="PORTFOLIO" link="#" />
-            <OvalNav content="GUEST BOOK" link="#" />
+            <OvalNav content="ABOUT ME" link="/aboutme" />
+            <OvalNav content="PORTFOLIO" link="/portfolio" />
+            <OvalNav content="GUEST BOOK" link="/guestbook" />
         </S.Container>
     );
 }
