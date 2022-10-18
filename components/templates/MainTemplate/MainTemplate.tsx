@@ -1,9 +1,10 @@
-import { PageTopper, MainNavBar } from "components";
+import { PageTopper, MainNavBar, SplashCard } from "components";
 import * as S from "./MainTemplate.styles";
 
 export function MainTemplate({ ...props }) {
     return (
         <S.Container>
+            <SplashCard />
             <PageTopper>
                 <MainNavBar />
             </PageTopper>

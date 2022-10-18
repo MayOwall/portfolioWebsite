@@ -25,6 +25,7 @@ export const Container = styled.div`
     height: 100vh;
 
     color: white;
+    background-color: white;
 
     z-index: 1000;
 
