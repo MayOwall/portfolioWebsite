@@ -6,6 +6,7 @@ import { MainNavBar } from "./features/MainNavBar";
 import { PageTopper } from "./features/PageTopper";
 import { SplashCard } from "./features/SplashCard";
 import { AboutFeature } from "./features/AboutFeature";
+import { PageFooter } from "./features/PageFooter";
 
 import { MainTemplate } from "./templates/MainTemplate";
 
@@ -18,4 +19,5 @@ export {
     SplashCard,
     AboutAtom,
     AboutFeature,
+    PageFooter,
 };
