@@ -9,3 +9,15 @@ export interface IColors {
 export interface IPageTopperProps {
     children: JSX.Element;
 }
+
+export interface IAboutAtomProps {
+    title: string;
+    content: string;
+    date?: string;
+    isSkill: boolean;
+}
+
+export interface IAboutFeatureProps {
+    title: string;
+    contentList: IAboutAtomProps[];
+}
