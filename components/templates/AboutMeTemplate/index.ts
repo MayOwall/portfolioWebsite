@@ -1,0 +1,1 @@
+export { AboutMeTemplate } from "./AboutMeTemplate";

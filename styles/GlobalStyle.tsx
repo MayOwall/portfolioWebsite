@@ -5,11 +5,10 @@ import theme from "./theme";
 const globalStyles = css`
     ${reset}
     html, body {
-        overflow: hidden;
         padding: 0;
         margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-            Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+        max-width: 1028px;
+        font-family: "Noto Serif KR", serif;
     }
     a {
         color: inherit;
