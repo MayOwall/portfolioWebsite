@@ -5,8 +5,11 @@ const circleAnimation = keyframes`
   0% {
     transform: scale(1);
   }
-  10% {
+  5% {
     transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
   }
   50% {
     transform: scale(3);

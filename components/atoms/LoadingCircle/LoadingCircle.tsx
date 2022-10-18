@@ -16,7 +16,7 @@ export function LoadingCircle({ ...props }) {
                     clearInterval(percentUp);
                 }
             }, 40);
-        }, 500);
+        }, 700);
     }, []);
 
     useEffect(() => {
