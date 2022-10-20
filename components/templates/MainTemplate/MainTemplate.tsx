@@ -35,7 +35,7 @@ export function MainTemplate({ ...props }) {
             </PageTopper>
             <S.Greeting>
                 <div>Hello,</div>
-                <div>from</div>
+                <div>this is</div>
                 <div>MayOwall</div>
             </S.Greeting>
             <S.Desc>
