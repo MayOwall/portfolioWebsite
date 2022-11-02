@@ -1,6 +1,7 @@
 import { OvalNav } from "./atoms/OvalNav";
 import { LoadingCircle } from "./atoms/LoadingCircle";
 import { AboutAtom } from "./atoms/AboutAtom";
+import { PictureFrame } from "./atoms/PictureFrame";
 
 import { MainNavBar } from "./features/MainNavBar";
 import { PageTopper } from "./features/PageTopper";
@@ -24,4 +25,5 @@ export {
     PageFooter,
     AboutMeTemplate,
     AboutOvalFrame,
+    PictureFrame,
 };

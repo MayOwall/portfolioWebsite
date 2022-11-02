@@ -5,6 +5,12 @@ export interface IColors {
     midSlateGreen: string;
     darkSlateGreen: string;
 }
+export interface IPictureFrameProps {
+    image: string;
+    width: string;
+    height: string;
+    borderRadius: number | string;
+}
 
 export interface IPageTopperProps {
     children: JSX.Element;
