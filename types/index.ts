@@ -27,3 +27,11 @@ export interface IAboutFeatureProps {
     title: string;
     contentList: IAboutAtomProps[];
 }
+
+export interface IProjectFrameProps {
+    title: string;
+    date: string;
+    width: string;
+    height: string;
+    direction: "vertical" | "horizontal";
+}
