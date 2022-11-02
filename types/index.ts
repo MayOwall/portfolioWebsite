@@ -35,3 +35,7 @@ export interface IProjectFrameProps {
     height: string;
     direction: "vertical" | "horizontal";
 }
+export interface IProjectModalProps {
+    dataTitle: "woorimap" | "ttabong" | "portfolio";
+    onClick: React.MouseEventHandler;
+}
