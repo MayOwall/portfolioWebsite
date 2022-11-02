@@ -7,7 +7,8 @@ export default {
     argTypes: {
         title: {
             defaultValue: "WooriMap",
-            control: "text",
+            control: "radio",
+            options: ["WooriMap", "TTaBong", "Portfolio Website"],
         },
         date: {
             defaultValue: "2022.11.01",

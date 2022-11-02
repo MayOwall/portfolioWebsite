@@ -5,13 +5,13 @@ import deleteButton from "public/images/deleteButton.svg";
 import { IProjectModalProps } from "types";
 import * as S from "./ProjectModal.styles";
 
-export function ProjectModal({ dataTitle, onClick }: IProjectModalProps) {
+export function ProjectModal({ dataTitle, onDeleteClick }: IProjectModalProps) {
     const { title, date, team, repo, image, desc } = projectData[dataTitle];
 
     return (
         <S.Container>
             <S.ModalContainer>
-                <S.DeleteButtonContainer onClick={onClick}>
+                <S.DeleteButtonContainer onClick={onDeleteClick}>
                     <Image src={deleteButton} layout="fill" />
                 </S.DeleteButtonContainer>
                 <S.ModalContent>

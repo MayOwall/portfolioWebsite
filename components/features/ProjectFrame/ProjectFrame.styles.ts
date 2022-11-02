@@ -15,6 +15,7 @@ export const Container = styled.div<IContainerProps>`
 
     border: 1px solid;
     border-radius: 0.5rem;
+    z-index: 0;
 
     color: ${({ theme }) => theme.colors.darkSlateGreen};
 
@@ -43,7 +44,7 @@ export const Title = styled.h2`
     color: ${({ theme }) => theme.colors.white};
     -webkit-text-stroke: 1px ${({ theme }) => theme.colors.darkSlateGreen};
 
-    z-index: 1000;
+    z-index: 0;
     transition: 0.2s ease-in all;
 `;
 

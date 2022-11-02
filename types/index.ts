@@ -29,13 +29,13 @@ export interface IAboutFeatureProps {
 }
 
 export interface IProjectFrameProps {
-    title: string;
+    title: "WooriMap" | "TTaBong" | "Portfolio Website";
     date: string;
     width: string;
     height: string;
     direction: "vertical" | "horizontal";
 }
 export interface IProjectModalProps {
-    dataTitle: "woorimap" | "ttabong" | "portfolio";
-    onClick: React.MouseEventHandler;
+    dataTitle: "WooriMap" | "TTaBong" | "Portfolio Website";
+    onDeleteClick: React.MouseEventHandler;
 }

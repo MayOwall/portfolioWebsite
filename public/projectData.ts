@@ -16,7 +16,7 @@ interface IProjectObjectData {
 }
 
 const projectData: IProjectObjectData = {
-    woorimap: {
+    WooriMap: {
         title: "WooriMap",
         date: "2022.08.18 ~ 2022.08.18",
         team: "프론트엔드 5명, 백엔드 4명",
@@ -36,7 +36,7 @@ const projectData: IProjectObjectData = {
         </ul>
         `,
     },
-    ttabong: {
+    TTaBong: {
         title: "TTaBong",
         date: "2022.08.18 ~ 2022.08.18",
         team: "프론트엔드 5명",
@@ -56,7 +56,7 @@ const projectData: IProjectObjectData = {
         </ul>
         `,
     },
-    portfolio: {
+    "Portfolio Website": {
         title: "Portfolio Website",
         date: "2022.10.11 ~ 2022.08.18",
         team: "개인프로젝트",
