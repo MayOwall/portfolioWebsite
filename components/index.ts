@@ -10,6 +10,7 @@ import { AboutFeature } from "./features/AboutFeature";
 import { PageFooter } from "./features/PageFooter";
 import { AboutOvalFrame } from "./features/AboutOvalFrame";
 import { ProjectFrame } from "./features/ProjectFrame";
+import { ProjectModal } from "./features/ProjectModal/ProjectModal";
 
 import { MainTemplate } from "./templates/MainTemplate";
 import { AboutMeTemplate } from "./templates/AboutMeTemplate";
@@ -28,4 +29,5 @@ export {
     AboutOvalFrame,
     PictureFrame,
     ProjectFrame,
+    ProjectModal,
 };
