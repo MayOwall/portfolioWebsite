@@ -1,7 +1,7 @@
 import { PageTopper, OvalNav, GalleryWall } from "components";
-import * as S from "./ProjectTemplate.styles";
+import * as S from "./PortfolioTemplate.styles";
 
-export function ProjectTemplate({ ...props }) {
+export function PortfolioTemplate({ ...props }) {
     return (
         <S.Background>
             <S.Container>

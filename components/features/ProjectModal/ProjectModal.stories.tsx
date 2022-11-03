@@ -10,9 +10,9 @@ export default {
     component: ProjectModal,
     argTypes: {
         dataTitle: {
-            defaultValue: "woorimap",
+            defaultValue: "WooriMap",
             control: "radio",
-            options: ["woorimap", "ttabong", "portfolio"],
+            options: ["WooriMap", "TTaBong", "Portfolio Website"],
         },
         onClick: {
             defaultValue: dummyOnClick,
