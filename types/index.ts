@@ -1,9 +1,16 @@
+import { StaticImageData } from "next/image";
 export interface IColors {
     white: string;
     black: string;
     lightSlateGreen: string;
     midSlateGreen: string;
     darkSlateGreen: string;
+}
+export interface IPictureFrameProps {
+    image: string | StaticImageData;
+    width: string;
+    height: string;
+    borderRadius: number | string;
 }
 
 export interface IPageTopperProps {
@@ -20,4 +27,16 @@ export interface IAboutAtomProps {
 export interface IAboutFeatureProps {
     title: string;
     contentList: IAboutAtomProps[];
+}
+
+export interface IProjectFrameProps {
+    title: "WooriMap" | "TTaBong" | "Portfolio Website";
+    date: string;
+    width: string;
+    height: string;
+    direction: "vertical" | "horizontal";
+}
+export interface IProjectModalProps {
+    dataTitle: "WooriMap" | "TTaBong" | "Portfolio Website";
+    onDeleteClick: React.MouseEventHandler;
 }

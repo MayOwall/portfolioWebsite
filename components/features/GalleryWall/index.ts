@@ -1,0 +1,1 @@
+export { GalleryWall } from "./GalleryWall";

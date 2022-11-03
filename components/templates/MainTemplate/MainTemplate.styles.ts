@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 
-export const Container = styled.div`
+export const Container = styled.main`
     position: fixed;
     top: 0;
     left: 0;
