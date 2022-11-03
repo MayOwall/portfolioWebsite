@@ -11,6 +11,7 @@ import { PageFooter } from "./features/PageFooter";
 import { AboutOvalFrame } from "./features/AboutOvalFrame";
 import { ProjectFrame } from "./features/ProjectFrame";
 import { ProjectModal } from "./features/ProjectModal/ProjectModal";
+import { GalleryWall } from "./features/GalleryWall";
 
 import { MainTemplate } from "./templates/MainTemplate";
 import { AboutMeTemplate } from "./templates/AboutMeTemplate";
@@ -30,4 +31,5 @@ export {
     PictureFrame,
     ProjectFrame,
     ProjectModal,
+    GalleryWall,
 };

@@ -1,3 +1,4 @@
+import { StaticImageData } from "next/image";
 export interface IColors {
     white: string;
     black: string;
@@ -6,7 +7,7 @@ export interface IColors {
     darkSlateGreen: string;
 }
 export interface IPictureFrameProps {
-    image: string;
+    image: string | StaticImageData;
     width: string;
     height: string;
     borderRadius: number | string;
