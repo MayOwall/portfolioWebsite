@@ -15,6 +15,7 @@ import { GalleryWall } from "./features/GalleryWall";
 
 import { MainTemplate } from "./templates/MainTemplate";
 import { AboutMeTemplate } from "./templates/AboutMeTemplate";
+import { PortfolioTemplate } from "./templates/PortfolioTemplate";
 
 export {
     OvalNav,
@@ -32,4 +33,5 @@ export {
     ProjectFrame,
     ProjectModal,
     GalleryWall,
+    PortfolioTemplate,
 };
