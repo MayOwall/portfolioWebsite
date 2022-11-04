@@ -14,7 +14,7 @@ export function MainTemplate({ ...props }) {
             setSplashCardVisible(true);
             window.localStorage.setItem(
                 "splashCardDate",
-                String(Date.now() + 60000)
+                String(Date.now() + 600000)
             );
         } else {
             const current = Date.now();
@@ -22,7 +22,7 @@ export function MainTemplate({ ...props }) {
                 setSplashCardVisible(true);
                 window.localStorage.setItem(
                     "splashCardDate",
-                    String(Date.now() + 60000)
+                    String(Date.now() + 600000)
                 );
             }
         }
