@@ -39,6 +39,7 @@ export function ProjectModal({ dataTitle, onDeleteClick }: IProjectModalProps) {
                                 alt={title}
                                 objectFit="cover"
                                 style={{ borderRadius: "1rem" }}
+                                priority
                             />
                         </S.ImageContainer>
                         <div dangerouslySetInnerHTML={{ __html: desc }} />
