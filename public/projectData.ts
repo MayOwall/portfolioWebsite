@@ -18,9 +18,9 @@ interface IProjectObjectData {
 const projectData: IProjectObjectData = {
     WooriMap: {
         title: "WooriMap",
-        date: "2022.08.18 ~ 2022.08.18",
+        date: "2022.07.17 ~ 2022.08.16",
         team: "프론트엔드 5명, 백엔드 4명",
-        repo: "#",
+        repo: "https://github.com/prgrms-web-devcourse/Team_02_WooriMap_FE",
         image: woorimapBanner,
         desc: `
         연인들 간의 추억을 공유하고 모아볼 수 있는<br/> KakaoMap 기반 SNS 플랫폼<br/><br/>
@@ -38,9 +38,9 @@ const projectData: IProjectObjectData = {
     },
     TTaBong: {
         title: "TTaBong",
-        date: "2022.08.18 ~ 2022.08.18",
+        date: "2022.06.05 ~ 2022.06.17",
         team: "프론트엔드 5명",
-        repo: "#",
+        repo: "https://github.com/prgrms-fe-devcourse/FEDC2_TTaBong_Dali",
         image: ttaBongBanner,
         desc: `
         사용자 간 칭찬 포스트를 공유하는 SNS 서비스. <br/> 
@@ -58,9 +58,9 @@ const projectData: IProjectObjectData = {
     },
     "Portfolio Website": {
         title: "Portfolio Website",
-        date: "2022.10.11 ~ 2022.08.18",
+        date: "2022.10.11 ~ ing",
         team: "개인프로젝트",
-        repo: "#",
+        repo: "https://github.com/MayOwall/portfolioWebsite",
         image: "#",
         desc: "아직 준비중입니다",
     },
