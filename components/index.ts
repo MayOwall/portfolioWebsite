@@ -16,6 +16,7 @@ import { GalleryWall } from "./features/GalleryWall";
 import { MainTemplate } from "./templates/MainTemplate";
 import { AboutMeTemplate } from "./templates/AboutMeTemplate";
 import { PortfolioTemplate } from "./templates/PortfolioTemplate";
+import { GuestBookTemplate } from "./templates/GuestBookTemplate";
 
 export {
     OvalNav,
@@ -34,4 +35,5 @@ export {
     ProjectModal,
     GalleryWall,
     PortfolioTemplate,
+    GuestBookTemplate,
 };

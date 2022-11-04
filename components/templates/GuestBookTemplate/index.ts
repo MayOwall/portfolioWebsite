@@ -1,0 +1,1 @@
+export { GuestBookTemplate } from "./GuestBookTemplate";
