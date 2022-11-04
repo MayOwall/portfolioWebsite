@@ -9,7 +9,7 @@ export function GalleryWall({ ...props }) {
             <S.WooriContainer>
                 <ProjectFrame
                     title="WooriMap"
-                    date="2022.11.01"
+                    date="2022.07.17 ~ 2022.08.16"
                     width="28rem"
                     height="13rem"
                     direction="horizontal"
@@ -18,7 +18,7 @@ export function GalleryWall({ ...props }) {
             <S.TTaBongContainer>
                 <ProjectFrame
                     title="TTaBong"
-                    date="2022.11.01"
+                    date="2022.06.05 ~ 2022.06.17"
                     width="18rem"
                     height="25rem"
                     direction="vertical"

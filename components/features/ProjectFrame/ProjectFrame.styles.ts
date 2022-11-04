@@ -50,6 +50,7 @@ export const Title = styled.h2`
 
 export const Date = styled.p`
     margin-top: 1rem;
+    font-family: sans-serif;
     font-size: 1rem;
     color: ${({ theme }) => theme.colors.white};
 `;
